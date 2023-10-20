@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+</head>
+
+<body>
+
+    <!-- LoC banner starts here -->
+    <header class="loc-header">
+        <div class="loc-logo">
+            <a href="https://www.loc.gov/"><img src="{{ site.baseurl }}/img/LOC_Logo_horiz_inv.png" alt="The Library of Congress logo" title="Go to the Library of Congress homepage" /></a>
+        </div>
+        <div class="project-description">
+            {{ site.descriptionhtml | markdownify }}
+            <p>
+                <a href="{{ site.baseurl }}{{ site.abouturl }}" class="button small">Learn more</a> <a href="{{ site.codeurl }}" class="button small">View the code</a>
+            </p>
+        </div>
+    </header>
+    <!-- /LoC banner end here -->
+
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    <!-- LoC footer starts here -->
+    <footer class="loc-footer">
+        {{ site.descriptionhtml | markdownify }}
+        <ul class="loc-footer-nav-list" role="navigation">
+            <li><a href="{{ site.codeurl }}">Source code</a></li>  
+            <li><a href="https://www.loc.gov/">The Library of Congress</a></li>
+            <li><a href="https://loc.gov/legal">Privacy Policy</a>.</li>
+            <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Github Privacy Statement</a>.</li>
+            <li><a href="https://creativecommons.org/publicdomain/zero/1.0/">License</a></li>
+            <li><a href="mailto:{{ site.email }}">Contact</a></li>
+        </ul>
+    </footer>
+    <!-- /LoC footer end here -->
+
+</body>
+
+</html>
