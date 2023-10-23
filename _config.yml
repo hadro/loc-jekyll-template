@@ -23,15 +23,15 @@ email: LC-Labs@loc.gov
 description: >-
   This is a project by Library specialist Jane Doe that remixes
   This Excellent Collection at the Library of Congress.
-descriptionhtml: >-
+description_with_markdown: >-
   This is a project by Library specialist Jane Doe that remixes
   [This Excellent Collection](https://www.loc.gov/collections/excellent-collection/)
   at the [Library of Congress](https://www.loc.gov/).
 domain: beefoo.github.io
 baseurl: "/loc-jekyll-template" # the subpath of your site, e.g. /blog
 url: "https://beefoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-abouturl: /about/
-codeurl: "https://github.com/beefoo/loc-jekyll-template"
+about_url: /about/
+code_url: "https://github.com/beefoo/loc-jekyll-template"
 
 # Build settings
 theme: minima

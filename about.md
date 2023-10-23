@@ -1,5 +1,6 @@
 ---
 layout: loc
+id: about
 title: About
 permalink: /about/
 ---

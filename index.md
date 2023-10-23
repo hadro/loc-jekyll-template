@@ -1,4 +1,5 @@
 ---
+id: homepage
 layout: loc
 title: Homepage
 ---

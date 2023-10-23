@@ -1,0 +1,12 @@
+- id: homepage
+  url: "/"
+  text: Homepage
+
+- id: about
+  url: "/about/"
+  text: About
+
+- id: code
+  url: "https://github.com/beefoo/loc-jekyll-template"
+  text: Code
+  is_external: true
