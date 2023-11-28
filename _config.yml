@@ -21,12 +21,9 @@
 title: Your project title
 email: LC-Labs@loc.gov
 description: >-
-  This is a project by Library specialist Jane Doe that remixes
-  This Excellent Collection at the Library of Congress.
+  This site describes technical methods, techniques, or approaches for engaging with the Library of Congress.
 description_with_markdown: >-
-  This is a project by Library specialist Jane Doe that remixes
-  [This Excellent Collection](https://www.loc.gov/collections/excellent-collection/)
-  at the [Library of Congress](https://www.loc.gov/).
+  This site describes technical methods, techniques, or approaches for engaging with the [Library of Congress](https://www.loc.gov/).
 domain: beefoo.github.io
 baseurl: "/loc-jekyll-template" # the subpath of your site, e.g. /blog
 url: "https://beefoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
