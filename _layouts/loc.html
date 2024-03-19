@@ -7,8 +7,8 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 
 <body class="page-{{ page.id }}">
@@ -16,7 +16,7 @@
     <!-- LoC banner starts here -->
     <header class="loc-header">
         <div class="loc-logo">
-            <a href="https://www.loc.gov/"><img src="{{ site.baseurl }}/img/LOC_Logo_horiz_inv.png" alt="The Library of Congress logo" title="Go to the Library of Congress homepage" /></a>
+            <a href="https://www.loc.gov/"><img src="{{ site.baseurl }}/assets/img/LOC_Logo_horiz_inv.png" alt="The Library of Congress logo" title="Go to the Library of Congress homepage" /></a>
         </div>
         <div class="project-description">
             {{ site.description }}
@@ -30,7 +30,7 @@
     <main class="main-content">
         <nav class="main-menu">
             <ul class="main-menu-list">
-            {% for item in site.data.main_menu %}
+            {% for item in site.main_menu %}
                 <li>
                     {% if item.is_external %}
                         <a href="{{ item.url }}" target="_blank" class="external-link" rel="external">
