@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Brian Foo"]
   spec.email         = ["bfoo@loc.gov"]
 
-  spec.summary       = "A simple Jekyll template for your project.."
+  spec.summary       = "A simple Jekyll template for your project."
   spec.homepage      = "https://github.com/beefoo/loc-jekyll-template"
   spec.license       = ""
 
