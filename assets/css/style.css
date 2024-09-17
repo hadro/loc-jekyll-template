@@ -94,6 +94,7 @@ main a[href^="https://loc.gov"]::after,
 main a[href^="https://www.loc.gov"]::after,
 main a[href^="https://staff.loc.gov"]::after,
 main a[href^="https://blogs.loc.gov"]::after,
+main a[href^="https://labs.loc.gov"]::after,
 main a[href^="https://libraryofcongress.github.io"]::after
 {
   display: none !important;
