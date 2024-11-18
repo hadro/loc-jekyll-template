@@ -4,21 +4,6 @@ layout: loc
 title: Test of embedding a notebook
 ---
 
-<style>
-
-body {
-  max-width: 960px;
-  margin: 1em auto;
-  padding: 0 1em;
-  font-family: sans-serif;
-}
-
-a:link:not(:hover) {
-  text-decoration: none;
-}
-
-</style>
-
 <div id="observablehq-4f295653"></div>
 <p>Credit: <a href="https://observablehq.com/@hadro-ws/loc-gov-json-api-guide">LOC.gov JSON API Guide by Hadro&#039;s Workspace</a></p>
 
