@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Observable Example: Simple Notebook</title>
+---
+id: homepage
+layout: loc
+title: Test of embedding a notebook
+---
+
 <style>
 
 body {
