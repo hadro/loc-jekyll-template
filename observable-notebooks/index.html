@@ -15,19 +15,13 @@ a:link:not(:hover) {
 }
 
 </style>
-<h1><a href="https://github.com/observablehq/examples">Observable Example</a>: <a href="https://github.com/observablehq/examples/tree/main/simple-notebook">Simple Notebook</a></h1>
-<p>This example demonstrates how to embed an <a href="https://observablehq.com/@hadro-ws/loc-gov-json-api-guide">entire notebook</a> as-is.</p>
+
+<div id="observablehq-4f295653"></div>
+<p>Credit: <a href="https://observablehq.com/@hadro-ws/loc-gov-json-api-guide">LOC.gov JSON API Guide by Hadro&#039;s Workspace</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
-
-// Load the Observable runtime and inspector.
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-
-// Your notebook, compiled as an ES module.
-import notebook from "https://api.observablehq.com/@hadro-ws/loc-gov-json-api-guide.js";
-
-// Load the notebook, observing its cells with a default Inspector that simply
-// renders the value of every cell into the provided DOM node.
-const runtime = new Runtime();
-const main = runtime.module(notebook, Inspector.into(document.body));
-
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/@hadro-ws/loc-gov-json-api-guide.js?v=4";
+new Runtime().module(define, Inspector.into("#observablehq-4f295653"));
 </script>
